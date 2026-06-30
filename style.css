@@ -1,0 +1,81 @@
+.body{
+    display: flex;
+    align-items: center;
+}
+.edition{
+margin-top: -18px;
+margin-left: -10px;
+}
+
+.calculator{
+    margin:10% 0px 0px 25%;
+    display: grid;
+    align-self: center;
+    align-items: center;
+    background-image: url(calculator-bg.webp);
+    background-size:cover;
+    background-position:bottom;
+    width: auto;
+    max-width: 450px;
+    padding: 20px;
+    border: 5px solid rgb(149, 129, 226);
+}
+.calculator:hover{
+box-shadow: 0 4px 14px rgba(0,0,0,0.13);
+transform: translateY(-5px);
+}
+
+.display{
+    font-size: 37px;
+    height: 50px;
+    background-color: rgb(249, 232, 250);
+    margin-top: -10px;
+}
+.display:hover{
+    box-shadow: 0 4px 14px rgb(137, 106, 216);
+  transform: translateY(-1px);
+}
+.button{
+    border-radius:10px;
+    margin: 5px 5px 5px 5px;
+    padding: 10px;
+    background-color: rgb(255, 229, 184);
+
+}
+
+.button:hover{
+    box-shadow: 0 4px 14px rgba(0,0,0,0.13);
+  transform: translateY(-1px);
+}
+
+.columns{
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    
+}
+.column5{
+    
+    margin-top: 59px;
+}
+
+.button{
+    font-size: 20px;
+    font-weight: 900;
+    color: peru;
+    border:none;
+}
+.addition{
+    height: 100px;
+    width: 100px;
+}
+
+.operation{
+    height: 40px;
+    width: 40px;
+}
+
+.number{
+    height:40px;
+    width: 40px;
+}
